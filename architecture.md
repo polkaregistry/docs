@@ -160,6 +160,6 @@ its Polkadot address to sign the following message:
 
 The user should then use the DigiDoc signing application to sign the document
 with the above signature, which results in a `.ascie` file. The user should then
-publishes the `.ascie` file an URL or IPFS location. The URL or IPFS location,
+publishes the `.ascie` file in an URL or IPFS location. The URL or IPFS location,
 together with the `.ascie` file's SHA-256 hash, should be published to
 `polkadot/<address>/eeeid` in `polkaregistry/registry` repo.
