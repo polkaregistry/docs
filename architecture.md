@@ -76,6 +76,7 @@ do this, the user uses its Polkadot address to sign the following message:
 {
     "app": "polkaregistry",
     "version": 1,
+    "network": "polkadot",
     "item": "github",
     "handle": "<github handle>"
 }
@@ -94,6 +95,7 @@ following message:
 {
     "app": "polkaregistry",
     "version": 1,
+    "network": "polkadot",
     "item": "web",
     "url": "<website url>"
 }
@@ -113,6 +115,7 @@ following message:
 {
     "app": "polkaregistry",
     "version": 1,
+    "network": "polkadot",
     "item": "twitter",
     "handle": "<twitter handle>"
 }
@@ -131,6 +134,7 @@ the following message:
 {
     "app": "polkaregistry",
     "version": 1,
+    "network": "polkadot",
     "item": "matrix",
     "handle": "<matrix handle>"
 }
@@ -149,6 +153,7 @@ its Polkadot address to sign the following message:
 {
     "app": "polkaregistry",
     "version": 1,
+    "network": "polkadot",
     "item": "eeeid"
 }
 ```
