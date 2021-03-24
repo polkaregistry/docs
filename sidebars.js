@@ -8,5 +8,12 @@ module.exports = {
         'architecture',
       ],
     },
+    {
+      type: 'category',
+      label: 'Vision',
+      items: [
+        'vision/parachain',
+      ],
+    },
   ],
 };
