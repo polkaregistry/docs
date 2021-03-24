@@ -1,4 +1,7 @@
-# Polkaregistry Overview
+---
+title: Overview
+slug: /
+---
 
 This is a draft proposal of a new type of identity registrar for the Polkadot
 network, focusing on **optional** real-world identity verification (**without**

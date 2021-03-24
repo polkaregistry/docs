@@ -1,4 +1,6 @@
-# Architecture of the identity registrar on Polkadot maintained by Wei
+---
+title: Architecture
+---
 
 This article documents the architecture of the proposed identity registrar on
 Polkadot, maintained by Wei. In overview, we process all identity verification
