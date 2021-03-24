@@ -1,33 +1,16 @@
-# Website
+# Polkregistry
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This repo documents architecture and other related stuff of the proposed identity registrar on
+Polkadot, maintained by Wei. To read the documents, you'll most likely want to
+visit the rendered [Polkaregistry webstie](https://polkaregistry.org).
 
-## Installation
+## Operations
 
-```console
-yarn install
-```
+This project will be ran as an open source side project of Wei, and thus it
+requires no funding. Registrar verification on-chain will be provided for free
+without fees. However, Wei may send treasury tip proposals later in order to
+cover necessary transaction fees.
 
-## Local Development
+## License
 
-```console
-yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+CC-BY-SA 4.0
