@@ -65,11 +65,11 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Wei Tang. Content on this website licensed under CC-BY-SA 4.0.`,
-      metadatas: [
-        { name: 'twitter:card', content: 'summary' },
-      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Wei Tang. Content on this website licensed under CC-BY-SA 4.0.`
     },
+    metadatas: [
+      { name: 'twitter:card', content: 'summary' },
+    ],
   },
   presets: [
     [
