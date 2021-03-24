@@ -1,5 +1,5 @@
 ---
-title: Towards a common-good parachain
+title: Common-good parachain
 description: Polkaregistry's common-good parachain vision for Polkadot.
 ---
 
