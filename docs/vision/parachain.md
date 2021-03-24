@@ -1,5 +1,6 @@
 ---
 title: Towards a common-good parachain
+description: Polkaregistry's common-good parachain vision for Polkadot.
 ---
 
 In the long term future, it may be worthwhile to move Polkadot's identity
