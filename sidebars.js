@@ -6,6 +6,7 @@ module.exports = {
       items: [
         'overview',
         'architecture',
+        'procedure',
       ],
     },
     {
