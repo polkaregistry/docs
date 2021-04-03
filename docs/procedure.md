@@ -60,14 +60,18 @@ This proof allows you to verify your **legal name** field. To create the proof,
 you will first need to sign a message with your address. The body of the message
 is as follows:
 
-> Polkaregistry proof: My legal name is <legal name> and I own address <address> on Polkadot.
+```
+Polkaregistry proof: My legal name is <legal name> and I own address <address> on Polkadot.
+```
 
 Replace `<legal name>` with your legal name, in `<first name> <last name>`
 format, and replace `<address>` with your Polkadot address. The signature should
 then be appended to the end, with a space in between. An example is shown as
 below:
 
-> Polkaregistry proof: My legal name is Wei Tang and I own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0xd4445c4eef3d495ef342da44ed1d8f80d80fcd86523070e07e3012a06090f950d045cf9b30c8674c6c81f74333f222bd89281e1a214c330e2c07856604ac5c8f
+```
+Polkaregistry proof: My legal name is Wei Tang and I own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0xd4445c4eef3d495ef342da44ed1d8f80d80fcd86523070e07e3012a06090f950d045cf9b30c8674c6c81f74333f222bd89281e1a214c330e2c07856604ac5c8f
+```
 
 You can also use the tool provided at `polkaregistry/tools` to generate the
 proof.
@@ -91,13 +95,17 @@ This proof allows you to verify your **email address** field. If you wish to use
 this, make sure the email address your set on-chain is the same as the public
 email address in your Github profile. Sign a message with the following body:
 
-> Polkaregistry proof: I am <handle> on Github and own address <address> on Polkadot.
+```
+Polkaregistry proof: I am <handle> on Github and own address <address> on Polkadot.
+```
 
 Replace `<handle>` with your Github handle, and `<address>` with your Polkadot
 address. The signature should then be appended to the end, with a space in
 between. An example is shown as below:
 
-> Polkaregistry proof: I am sorpaas on Github and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0xfa1e810eb760d7e0fc8ce9523ead16f184ad8d21b06799e932cc1b1585c1341258f6d7e3b021d82d4f18675fc5e29932c1e1d943a12f8ac49381f1d9e401bd8a
+```
+Polkaregistry proof: I am sorpaas on Github and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0xfa1e810eb760d7e0fc8ce9523ead16f184ad8d21b06799e932cc1b1585c1341258f6d7e3b021d82d4f18675fc5e29932c1e1d943a12f8ac49381f1d9e401bd8a
+```
 
 Put this signed message into a Github gist, with file name as
 `polkaregistry.txt`. Then, add `"github": "<gist URI>"` into the index file
@@ -108,13 +116,17 @@ proofs section.
 This proof allows you to verify your **Matrix** field. Sign a message with the
 following body:
 
-> Polkaregistry proof: I am <handle> on Matrix and own address <address> on Polkadot.
+```
+Polkaregistry proof: I am <handle> on Matrix and own address <address> on Polkadot.
+```
 
 Replace `<handle>` with your Matrix handle, and `<address>` with your Polkadot
 address. The signature should then be appended to the end, with a space in
 between. An example is shown as below:
 
-> Polkaregistry proof: I am @wei:that.world on Matrix and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0x2eae4e7d7b172b2804f49e0496ee150e289629b90e765a9650acaa989dcd7f29e40590440efef040c1ace4d2e97bfde02fc10ceb4c0cdf42bc357b4b6a9edb87
+```
+Polkaregistry proof: I am @wei:that.world on Matrix and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0x2eae4e7d7b172b2804f49e0496ee150e289629b90e765a9650acaa989dcd7f29e40590440efef040c1ace4d2e97bfde02fc10ceb4c0cdf42bc357b4b6a9edb87
+```
 
 Use your handle to join the Matrix room at `#polkaregistryproofs:matrix.org`,
 and post your signed message. Then, get the event ID if your Matrix message. You
@@ -139,13 +151,17 @@ matrix:r/polkaregistryproofs:matrix.org/e/$MU0UBTQrloJ64bblRU-2CIS3yOOjQxHcZmeiU
 This proof allows you to verify a **website** link. Sign a message with the
 following body:
 
-> Polkaregistry proof: I own website <domain> and own address <address> on Polkadot.
+```
+Polkaregistry proof: I own website <domain> and own address <address> on Polkadot.
+```
 
 Replace `<domain>` with your website domain, and `<address>` with your Polkadot
 address. The signature should then be appended to the end, with a space in
 between. An example is shown as below:
 
-> Polkaregistry proof: I own website that.world and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0x54e003d62f459219e8c273afff4eea0c4548202a98b1ede0a9219618ad8d8064eda38fb58f4858fb31dade71bf68969741a29b20d25ec841c4889b7c7f649388
+```
+Polkaregistry proof: I own website that.world and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0x54e003d62f459219e8c273afff4eea0c4548202a98b1ede0a9219618ad8d8064eda38fb58f4858fb31dade71bf68969741a29b20d25ec841c4889b7c7f649388
+```
 
 Make the above message accessible from
 `https://<domain>/.well-known/polkaregistry.txt`. For example, if your
@@ -160,13 +176,17 @@ file proofs section.
 This proof allows you to verify your **Twitter** handle. Sign a message with the
 following body:
 
-> Polkaregistry proof: I am <handle> on Twitter and own address <address> on Polkadot.
+```
+Polkaregistry proof: I am <handle> on Twitter and own address <address> on Polkadot.
+```
 
 Replace `<handle>` with your Twitter handle, and `<address>` with your Polkadot
 address. The signature should then be appended to the end, with a space in
 between. An example is shown as below:
 
-> Polkaregistry proof: I am sorpaas on Twitter and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0x5a8d80f73f1aff22492dcb05dec3ced046d9925a4b78d71234bb30d61a56d055600f52001de5294fd0ea4eb20a838d6822909aa4085b893aab187027969afc84
+```
+Polkaregistry proof: I am sorpaas on Twitter and own address 1CM4eAY3QFWTPQFNGgvSpPoEAqw1aHA1gmE2atXQ8f4vk1T on Polkadot. 0x5a8d80f73f1aff22492dcb05dec3ced046d9925a4b78d71234bb30d61a56d055600f52001de5294fd0ea4eb20a838d6822909aa4085b893aab187027969afc84
+```
 
 Post a public tweet using your Twitter handle. Copy the tweet link, and add
 `"twitter": "<tweet link>"` into the index file proofs section.
