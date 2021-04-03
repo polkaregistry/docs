@@ -44,6 +44,7 @@ Create the file of the following format:
 {
     "version": 1，
     "address": "<address>",
+    "network": "polkadot",
     "license": "CC-BY-NC-ND-4.0",
     "proofs": {
 
