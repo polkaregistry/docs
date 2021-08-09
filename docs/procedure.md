@@ -55,6 +55,41 @@ Create the file of the following format:
 Replace `<address>` by your Polkadot address. The proof field is the location
 where verification proofs are added.
 
+### Signature
+
+All proofs below requires the message to be signed. The signature can
+be of two types -- an off-chain signature that is done directly by the
+proving address, or an on-chain signature that directly or directly
+calls `system.remark`. The latter allows multi-sig addresses and
+proxied addresses to be verified.
+
+#### Off-chain signature
+
+Off-chain signatures are directly appended as hex strings at the end
+of the message.
+
+#### On-chain signature
+
+On-chain signature are of the following format. The registrar can only
+verify finalized extrinsics.
+
+```
+Signed on-chain <extrinsic ID> with hash <extrinsic hash>
+```
+
+Three different types of extrinsics are currently allowed, which are
+described as bellow. They all sign a `system.remark(<message>)`
+dispatchable in its essence.
+
+* Directly calling `system.remark(<message>)` with the sender as the
+  proving address.
+* Call `proxy.proxy` with `real` as the proving address.
+  `force_proxy_type` must be `Any`, and the call must be
+  `system.remark(<message>)`.
+* Call `multisig.asMulti` with a successful `MultisigExecuted` event,
+  where the multisig address is the proving address and `call` is
+  `system.remark(<message>)`.
+
 ### Estonia eID proof
 
 This proof allows you to verify your **legal name** field. To create the proof,
